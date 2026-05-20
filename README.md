@@ -167,14 +167,14 @@ PORT=3001 npm start
 Remote:
 
 ```text
-origin  https://github.com/chakravarthidinavahi/user-service.git
+origin  git@github.com:ChakravarthiDinavahi/user-service.git
 ```
 
 First-time setup:
 
 ```bash
 git init
-git remote add origin https://github.com/chakravarthidinavahi/user-service.git
+git remote add origin git@github.com:ChakravarthiDinavahi/user-service.git
 git add .
 git commit -m "Initial commit: user service API"
 git branch -M main
@@ -186,7 +186,7 @@ Create the empty repository on GitHub first (same name: `user-service`), then pu
 To use SSH instead:
 
 ```bash
-git remote set-url origin git@github.com:chakravarthidinavahi/user-service.git
+git remote set-url origin git@github.com:ChakravarthiDinavahi/user-service.git
 ```
 
 ## Tech stack
